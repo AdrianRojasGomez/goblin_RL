@@ -30,3 +30,54 @@
 *.exe
 *.out
 *.app
+
+# CLion and JetBrains IDEs
+.idea/
+cmake-build-*/
+
+# macOS specific
+.DS_Store
+._.*
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+cmake_install.cmake
+cmake_uninstall.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+build/
+build-*/
+
+# Raylib specific
+raylib/src/*.o
+raylib/src/*.obj
+raylib/src/*.exe
+raylib/src/*.dll
+raylib/src/*.a
+raylib/src/*.so
+raylib/src/*.dylib
+raylib/projects/*
+raylib/examples/*.o
+raylib/examples/*.exe
+raylib/examples/*.data
+raylib/examples/*.wasm
+raylib/examples/*.js
+raylib/examples/*.html
+
+# VSCode (si usas a veces VSCode con el proyecto)
+.vscode/
+
+# GNU Global tags
+GPATH
+GRTAGS
+GTAGS
+
+# Zig programming language
+.zig-cache/
+zig-cache/
+zig-out/
+docgen_tmp/
